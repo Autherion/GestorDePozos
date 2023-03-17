@@ -1,0 +1,57 @@
+* {
+    font-family: 'Helvetica Neue', 'Helvetica';
+}
+
+.nav-link {
+    color: #585353;
+}
+
+header, footer > p{
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+ul {
+    gap: 25px;
+}
+
+.dark-bg, footer {
+    background-color: rgba(250,245,245,0.66);
+}
+
+#logo {
+    height: 45px;
+}
+
+.marker {
+    cursor: pointer;
+}
+
+.marker:hover {
+    height: 55px;
+    width: 55px;
+}
+
+#p1 {
+    position: absolute;
+    left: 32%;
+    bottom: 55%;
+}
+
+#p2 {
+    position: absolute;
+    top: 300px;
+    left: 55%;
+}
+
+#p3 {
+    position: absolute;
+    top: 350px;
+    left: 38%;  
+}
+
+#main {
+    object-fit: cover;
+    height: auto;
+}
